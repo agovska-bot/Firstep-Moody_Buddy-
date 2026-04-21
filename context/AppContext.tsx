@@ -179,6 +179,48 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     setActiveTasks(prev => ({ ...prev, [category]: task }));
   }, [setActiveTasks]);
 
+  const streakDays = useMemo(() => {
+    // Собирање на сите датуми од различни активности
+    const allDates = [
+      ...moodHistory.map(m => m.date),
+      ...reflections.map(r => r.date),
+      ...stories.map(s => s.date)
+    ];
+
+    if (allDates.length === 0) return 0;
+
+    // Претворање во уникатни датуми (YYYY-MM-DD формат)
+    const distinctDates = Array.from(new Set(
+      allDates.map(d => new Date(d).toISOString().split('T')[0])
+    )).sort().reverse();
+
+    if (distinctDates.length === 0) return 0;
+
+    const today = new Date().toISOString().split('T')[0];
+    const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
+    // Ако последната активност не е денес или вчера, серијата е прекината
+    const lastEntryDate = distinctDates[0];
+    if (lastEntryDate !== today && lastEntryDate !== yesterday) {
+      return 0;
+    }
+
+    let streak = 0;
+    let expectedDate = new Date(lastEntryDate);
+
+    for (const dateStr of distinctDates) {
+      const currentExpectedStr = expectedDate.toISOString().split('T')[0];
+      if (dateStr === currentExpectedStr) {
+        streak++;
+        expectedDate.setDate(expectedDate.getDate() - 1);
+      } else {
+        break;
+      }
+    }
+
+    return streak;
+  }, [moodHistory, reflections, stories]);
+
   return (
     <AppContext.Provider value={{
       currentScreen,
@@ -194,7 +236,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       totalPoints: points.gratitude + points.physical + points.kindness + points.creativity,
       toastMessage,
       showToast: (msg) => { setToastMessage(msg); setTimeout(() => setToastMessage(null), 3000); },
-      streakDays: 0, 
+      streakDays, 
       birthDate,
       setBirthDate,
       age,

@@ -1,0 +1,200 @@
+
+{
+  "language_selection": {
+    "title": "Избери јазик"
+  },
+  "age_selection": {
+    "welcome": "Добредојде!",
+    "happy_to_see_you": "Среќни сме што си тука!",
+    "birthdate_prompt": "За апликацијата да расте со тебе и да ти ги дава најдобрите активности, кажи му на Бади кога ти е роденден!",
+    "select_date": "Внеси го твојот роденден",
+    "placeholder": "дд.мм.гггг",
+    "confirm_button": "Одиме! 🚀",
+    "reset_note": "Ова можеш да го ресетираш подоцна.",
+    "invalid_format": "Користи го форматот дд.мм.гггг",
+    "invalid_date": "Внеси вистински датум",
+    "too_young": "Мора да имаш барем 3 години!",
+    "too_old": "Дали е ова точната година? :)"
+  },
+  "home": {
+    "title": "Moody Buddy",
+    "subtitle": "Твојот другар за секое чувство",
+    "reset_button_text": "Ресетирај и смени роденден",
+    "more_activities_title": "Уште забавни активности",
+    "happy_birthday_title": "Среќен роденден! 🥳",
+    "happy_birthday_subtitle": "Бади е пресреќен што слави со тебе денес!",
+    "birthday_toast": "Среќен роденден! Да имаш најубав ден! 🥳",
+    "age_7-9": {
+      "mood_check_title": "Како си денес?",
+      "mood_check_description": "Одбери го твоето расположение и кажи му на Бади зошто се чувствуваш така.",
+      "story_creator_title": "Создај приказна",
+      "story_creator_description": "Ти пишуваш еден ред, Бади го пишува следниот.",
+      "rap_battle_title": "АИ Рап Студио",
+      "rap_battle_description": "Направи кул песна за тебе!",
+      "gratitude_jar_title": "Благодарност",
+      "gratitude_jar_description": "Ајде да најдеме за што сме благодарни!",
+      "get_moving_title": "Раздвижи се",
+      "get_moving_description": "Пробај брза смешна активност.",
+      "kindness_act_title": "Биди добар",
+      "kindness_act_description": "Направи нешто убаво за некого денес.",
+      "calm_zone_title": "Земи длабок здив",
+      "calm_zone_description": "Опушти се со Бади за момент.",
+      "reflections_title": "Мојот дневник",
+      "reflections_description": "Види ги твоите минати записи."
+    },
+    "age_10-12": {
+      "mood_check_title": "Како си денес?",
+      "mood_check_description": "Сподели што ти се случува.",
+      "story_creator_title": "Заедничка приказна",
+      "story_creator_description": "Започни со пишување — Бади ќе продолжи.",
+      "rap_battle_title": "АИ Рап Студио",
+      "rap_battle_description": "Генерирај уникатна рап рима.",
+      "gratitude_jar_title": "Благодарност",
+      "gratitude_jar_description": "Помисли на нешто позитивно во твојот ден.",
+      "get_moving_title": "Раздвижување",
+      "get_moving_description": "Пробај краток предизвик за раздвижување.",
+      "kindness_act_title": "Направи добро дело",
+      "kindness_act_description": "Направи некому денот поубав.",
+      "calm_zone_title": "Најди мир",
+      "calm_zone_description": "Диши, застани, опушти се.",
+      "reflections_title": "Твојот дневник",
+      "reflections_description": "Разгледај ги твоите мисли и моменти."
+    },
+    "age_12+": {
+      "mood_check_title": "Како си денес?",
+      "mood_check_description": "Запиши ги твоите емоции и следи го твојот раст.",
+      "story_creator_title": "Креативно пишување",
+      "story_creator_description": "Изгради сложена приказна со помош на АИ.",
+      "rap_battle_title": "АИ Рап Студио",
+      "rap_battle_description": "Создавај напредни стихови и рими.",
+      "gratitude_jar_title": "Свесна перспектива",
+      "gratitude_jar_description": "Размисли за значајни моменти во твојот живот.",
+      "get_moving_title": "Свесност за телото",
+      "get_moving_description": "Физички предизвици за ресетирање на енергијата.",
+      "kindness_act_title": "Социјално влијание",
+      "kindness_act_description": "Позитивни дејствија за твојата заедница.",
+      "calm_zone_title": "Стоички мир",
+      "calm_zone_description": "Напредна свесност и ментален фокус.",
+      "reflections_title": "Архива на умот",
+      "reflections_description": "Длабоко навлегување во твоите лични согледувања."
+    }
+  },
+  "mood_check_screen": {
+    "placeholder": "Што те натера да се чувствуваш вака?",
+    "save_button": "Зачувај расположение",
+    "buddy_support": "Бади е тука",
+    "continue": "Подготвен сум да продолжам",
+    "buddy_thinking": "Бади размислува..."
+  },
+  "rap_battle_screen": {
+    "name_placeholder": "Твоето Име",
+    "mood_placeholder": "Како се чувствуваш? (пр. Среќно)",
+    "generate_button": "Пушти ритам! 🎤",
+    "loading": "Бади смислува рими...",
+    "loading_lyrics": "Пишувам текст...",
+    "loading_audio": "Снимам вокал...",
+    "result_title": "АИ Рап Постер",
+    "another_button": "Напиши Нов Рап"
+  },
+  "gratitude_screen": {
+    "loading": "Смислувам нешто убаво...",
+    "complete_button": "Го направив тоа!",
+    "save_to_journal": "Зачувај во дневник",
+    "placeholder": "Напиши го твојот одговор тука...",
+    "another_button": "Дај ми друга задача",
+    "fallback_tasks": [
+      "Спомни си пријател што те насмеа и зошто.",
+      "За која работа во твојата соба си благодарен?",
+      "Спомни си вкусен оброк што го имаше и кажи 'благодарам' за него.",
+      "Помисли на твојата омилена играчка и зошто ја сакаш.",
+      "Која убава работа ја виде денес?"
+    ]
+  },
+  "move_screen": {
+    "loading": "Загревање...",
+    "complete_button": "Го направив тоа!",
+    "another_button": "Дај ми друга задача",
+    "fallback_tasks": [
+      "Направи 10 „jumping jacks“!",
+      "Трчај во место 30 секунди.",
+      "Преправај се дека си жаба и скокај низ собата 5 пати.",
+      "Истегни ги рацете кон небото колку што можеш повисоко.",
+      "Танцувај на твојата омилена песна една минута."
+    ]
+  },
+  "kindness_screen": {
+    "loading": "Смислувам добра идеја...",
+    "complete_button": "Готово!",
+    "another_button": "Дај ми друга идеја",
+    "fallback_tasks": [
+      "Гушни некого силно од твоето семејство.",
+      "Нацртај слика за пријател.",
+      "Помогни да се постави масата за оброк.",
+      "Кажи нешто убаво на некого.",
+      "Сподели една од твоите играчки со брат/сестра или пријател."
+    ]
+  },
+  "calm_zone_screen": {
+    "loading": "Наоѓам мирна мисла...",
+    "breathing_exercise_button": "Пробај вежба за дишење",
+    "another_button": "Дај ми друга идеја",
+    "breathe_title": "Диши 🌬️",
+    "breathe_get_ready": "Подготви се...",
+    "breathe_in": "Вдиши...",
+    "breathe_hold": "Задржи",
+    "breathe_out": "Издиши...",
+    "breathe_cycle_of": "Циклус {cycle} од {total}",
+    "breathe_get_ready_subtitle": "Подготви се да дишеш",
+    "fallback_tasks": [
+      "Замисли дека се топиш како сладолед на сонце.",
+      "Слушни три различни звуци околу тебе во моментов.",
+      "Преправај се дека прстите ти се свеќи и нежно дувај ги една по една.",
+      "Опиши ја сината боја без да ги користиш зборовите 'небо' или 'вода'.",
+      "Помисли на твоето омилено место. Како изгледа, звучи и мириса?"
+    ]
+  },
+  "story_creator_screen": {
+    "adventure_title": "Нашата авантура",
+    "buddy_thinks": "Бади размислува...",
+    "loading": "Сонувам нова приказна...",
+    "placeholder": "Што се случува потоа?",
+    "add_sentence_button": "Додај ја мојата реченица!",
+    "finish_button": "Заврши",
+    "finish_tooltip": "Напиши уште малку прво!",
+    "end_title": "Крај!",
+    "end_subtitle": "Каква одлична приказна напишавме!",
+    "another_story_button": "Напиши нова приказна",
+    "buddy_says": "Бади вели...",
+    "you_said": "Ти рече..."
+  },
+  "reflections_screen": {
+    "feeling_mood": "Чувствував {mood}",
+    "story_wrote": "Напишавме приказна: \"{title}\"",
+    "story_click_to_read": "Кликни за да прочиташ.",
+    "story_click_to_collapse": "Кликни за да затвориш.",
+    "mood_chart_title": "Микс на чувства",
+    "reflection_title": "Што ти се врти низ глава?",
+    "reflection_placeholder": "Напиши ги твоите мисли тука...",
+    "save_reflection_button": "Зачувај рефлексија",
+    "journal_title": "Твојот дневник",
+    "journal_empty": "Твоите расположенија и рефлексии ќе се појават тука.",
+    "prompts": [
+      "Кој беше најдобриот дел од денот?",
+      "Што научи денес?",
+      "Дали проба нешто ново денес?",
+      "Што те насмеа денес?",
+      "Со кого уживаше да разговараш денес?"
+    ]
+  },
+  "points_summary": {
+    "points": "🏆 Поени",
+    "streak": "Серија"
+  },
+  "moods": {
+    "Happy": "Радост",
+    "Sad": "Тага",
+    "Angry": "Лутина",
+    "Worried": "Грижа",
+    "Tired": "Умор"
+  }
+}
